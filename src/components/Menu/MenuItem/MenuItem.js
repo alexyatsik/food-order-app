@@ -1,8 +1,18 @@
-import styles from './MenuItem.module.css'
+import React from "react";
 
-const MenuItem = () => {
+import styles from './MenuItem.module.css'
+import Amounter from "./Amounter/Amounter";
+
+const MenuItem = (props) => {
   return (
-    <div>MenuItem</div>
+    <React.Fragment>
+      <div>
+        <span>{props.title}</span>
+        <span>{props.description}</span>
+        <span>{props.price}</span>
+      </div>
+      <Amounter />
+    </React.Fragment>
   );
 }
 

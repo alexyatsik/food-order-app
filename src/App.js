@@ -18,7 +18,7 @@ function App() {
     <React.Fragment>
       <Header />
       <Hero />
-      <Menu />
+      <Menu menuCatalogue={menu} />
     </React.Fragment>
   );
 }
