@@ -1,0 +1,9 @@
+.card {
+    border-radius: 16px;
+    background-color: azure;
+    padding: 16px;
+}
+
+.dark {
+    background-color: #4f4e4e;
+}

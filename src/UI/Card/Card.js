@@ -1,12 +1,11 @@
-import React from "react";
-
 import styles from './Card.module.css'
 
 const Card = (props) => {
+  const classes = styles.card + (props.className || '');
   return (
-    <React.Fragment>
+    <div className={classes}>
       {props.children}
-    </React.Fragment>
+    </div>
   );
 }
 

@@ -7,10 +7,10 @@ import styles from './Header.module.css';
 
 const Header = () => {
   return (
-    <React.Fragment>
+    <div className={styles.header}>
       <Logo />
       <Cart />
-    </React.Fragment>
+    </div>
   );
 }
 
