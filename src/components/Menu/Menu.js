@@ -10,6 +10,7 @@ const Menu = (props) => {
         {props.menuCatalogue.map((item) => (
           <li key={item.id}>
             <MenuItem
+              id={item.id}
               title={item.title}
               description={item.description}
               price={item.price}

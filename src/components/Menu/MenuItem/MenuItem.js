@@ -11,7 +11,7 @@ const MenuItem = (props) => {
         <span>{props.description}</span>
         <span>{props.price}</span>
       </div>
-      <Amounter />
+      <Amounter itemId={props.id} />
     </React.Fragment>
   );
 }
