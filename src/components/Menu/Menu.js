@@ -8,7 +8,7 @@ const Menu = (props) => {
     <Card className={styles['card-customize']}>
       <ul>
         {props.menuCatalogue.map((item) => (
-          <li key={item.id}>
+          <li key={item.id} className={styles['menu-item']}>
             <MenuItem
               id={item.id}
               title={item.title}

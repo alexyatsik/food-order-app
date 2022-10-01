@@ -1,9 +1,3 @@
-.input-field::-webkit-outer-spin-button,
-.input-field::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
 .value-handler {
     border: 1px solid black;
 }
