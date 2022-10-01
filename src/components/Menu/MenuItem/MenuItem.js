@@ -5,14 +5,14 @@ import Amounter from "./Amounter/Amounter";
 
 const MenuItem = (props) => {
   return (
-    <React.Fragment>
-      <div>
-        <span>{props.title}</span>
-        <span>{props.description}</span>
-        <span>{props.price}</span>
+    <div className={styles['menu-item']}>
+      <div className={styles['dish-info']}>
+        <span className={styles.title}>{props.title}</span>
+        <span className={styles.description}>{props.description}</span>
+        <span className={styles.price}>{props.price}</span>
       </div>
       <Amounter itemId={props.id} />
-    </React.Fragment>
+    </div>
   );
 }
 

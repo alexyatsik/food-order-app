@@ -1,7 +1,22 @@
+.amounter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    font-weight: bold;
+}
+
 .value-handler {
     border: 1px solid black;
 }
 
 .value-handler:hover {
     cursor: pointer;
+}
+
+.input-field {
+    width: 48px;
 }

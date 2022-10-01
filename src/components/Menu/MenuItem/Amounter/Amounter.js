@@ -19,15 +19,15 @@ const Amounter = (props) => {
   }
 
   const onClickAddHandler = () => {
-    console.log(inputValue);
+    console.log({value: inputValue, id: props.itemId});
     setInputValue(1);
     // props.addDishToCardHandler();
   }
 
   return (
-    <React.Fragment>
+    <div className={styles.amounter}>
       <div>
-        <label htmlFor="amount">Amount </label>
+        <label htmlFor="amount" className={styles.label}>Amount </label>
         <input
           id="amount"
           type="number"
@@ -39,7 +39,7 @@ const Amounter = (props) => {
         />
       </div>
       <Button onClick={onClickAddHandler} title="+ Add" />
-    </React.Fragment>
+    </div>
   );
 }
 
