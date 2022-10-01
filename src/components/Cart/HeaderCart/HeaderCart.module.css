@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 8px 16px;
+    background-color: rgba(0,0,0, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    cursor: pointer;
+}
+
+.wrapper:hover {
+    transform: scale(1.05);
+    background-color: rgba(0,0,0, 0.8);
+}
+
+.wrapper:active {
+    transform: scale(0.9);
+}
+
+.title {
+    font-weight: bold;
+    color: azure;
+}
+
+.counter {
+    padding: 2px 8px;
+    border-radius: 8px;
+    background-color: #d26e14;
+    backdrop-filter: blur(10px);
+    color: azure;
+    font-weight: bold;
+}

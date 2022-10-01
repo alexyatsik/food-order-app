@@ -3,6 +3,8 @@
 }
 
 body {
+    position: relative;
+
     margin: 0;
 
     font-family: 'Roboto', sans-serif;
@@ -17,4 +19,3 @@ ul {
 li {
     list-style: none;
 }
-
