@@ -1,17 +1,30 @@
 .hero {
+    position: relative;
+
     width: 100%;
-    height: 500px;
+    height: 480px;
+    margin-bottom: 100px;
     background-image: url(../../assets/images/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.card-customize {
+.card {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+
     height: fit-content;
     width: 50%;
     background-color: #4f4e4e;
+
+    box-shadow: 8px 8px 8px 8px;
 }
+
+.card__header,
+.card__paragraph {
+    color: azure;
+    text-align: center;
+}
+

@@ -5,7 +5,7 @@ import styles from './Menu.module.css'
 
 const Menu = (props) => {
   return (
-    <Card>
+    <Card className={styles['card-customize']}>
       <ul>
         {props.menuCatalogue.map((item) => (
           <li key={item.id}>
